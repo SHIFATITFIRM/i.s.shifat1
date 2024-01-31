@@ -1,0 +1,249 @@
+/* Add your custom styles here */
+
+/* Navbar styles */
+        /* Custom Styles for Navigation Bar */
+                .navbar {
+            background-color: #343a40;
+            padding: 20px 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #fff;
+        }
+
+        .navbar-toggler {
+            border: none;
+        }
+
+        .navbar-nav {
+            margin-top: 10px;
+        }
+
+        .nav-item {
+            margin: 0 15px;
+        }
+
+        .nav-link {
+            font-size: 18px;
+            color: #fff !important;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #f8f9fa !important;
+        }
+
+        /* Animation for Navigation Bar */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Apply animation only on larger screens */
+        @media (min-width: 768px) {
+            .navbar {
+                animation: fadeInDown 1s forwards;
+            }
+        }
+
+/* Hero section styles */
+/* Add this to your CSS stylesheet */
+.img-grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+#hero {
+    background: linear-gradient(to right, #4c64b3, #283655);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s forwards;
+}
+
+/* About section styles */
+#about {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s 0.5s forwards;
+}
+
+/* Projects section styles */
+#projects {
+    background-color: #e9ecef;
+    padding: 100px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s 1s forwards;
+}
+
+/* Contact section styles */
+#contact {
+    background-color: #343a40;
+    color: white;
+    padding: 100px 0;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s 1.5s forwards;
+}
+
+/* Footer styles */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeInUp 1s 2s forwards;
+}
+/* Custom CSS for Project Cards */
+/* Add this CSS to your existing stylesheet */
+
+/* Project Cards */
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Project Icons */
+.card i {
+    display: block;
+    font-size: 2em;
+    margin-top: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.card:hover i {
+    color: #7A72FF; /* Change to your desired hover color */
+}
+
+/* Hero Section */
+#hero {
+    background-color: #7A72FF;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    animation: fadeInUp 1s ease-out;
+}
+
+#hero p {
+    animation: fadeInUp 1s ease-out 0.3s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+/* Add this CSS to your existing stylesheet */
+
+/* Contact Form Styling */
+#contact {
+    background-color: #F6F6F6;
+    padding: 80px 0;
+}
+
+form {
+    background-color: black;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+form:hover {
+    transform: scale(1.05);
+}
+
+/* Submit Button Styling */
+.btn-submit {
+    background-color: #7A72FF;
+    color: white;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: #6257E0;
+}
+
+.contact-form button:hover {
+    background-color: #665eff; /* Change to your desired button hover color */
+    color: white;
+}
+/* Add this CSS to your existing stylesheet */
+
+/* Footer Styling */
+footer {
+    background-color: #333232;
+    padding: 30px 0;
+    color: white;
+}
+
+.footer-heading {
+    color: #7A72FF;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    font-size: 30px;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons:hover {
+    color: #7A72FF;
+}
+
+.footer-hr {
+    border-color: #7A72FF;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+/* Add any additional animations or transitions based on your preference */
+
+
+/* Additional styles for sections and animations */
+/* Add your custom styles here */
+
+/* Animation keyframes */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
